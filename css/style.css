@@ -3,6 +3,7 @@ h1 {
   font-weight: 0;
   font-style: normal;
   font-size: 120px;
+  color: #000000;
 }
 
 h2 {
@@ -10,6 +11,7 @@ h2 {
    font-weight: 0;
    font-style: normal; 
    font-size: 64px;
+   color: #000000;
 }
 
 
@@ -21,3 +23,136 @@ h2 {
   font-variation-settings:
     "wdth" 100;
 }
+
+/* HOME */
+  /* CHOOSE */
+  #home > h2 {
+    position: absolute;
+    width: 576px;
+    height: 96px;
+    left: 568px;
+    top: 220px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+  }
+
+  /* MEEEEEE */
+    /* me1 */
+    #home > .me > .me1 {
+      position: absolute;
+      width: 1440px;
+      height: 120px;
+      left: 144px;
+      top: 385px;
+      font-weight: 400;
+      font-size: 120px;
+      line-height: 120px;
+      text-align: center;
+    }
+
+    /* me2 */
+    #home > .me > .me2 {
+      position: absolute;
+      width: 1440px;
+      height: 120px;
+      left: 144px;
+      top: 478px;
+      font-weight: 400;
+      font-size: 120px;
+      line-height: 120px;
+      text-align: center
+    }
+
+    /* me3 */
+    #home > .me > .me3 {
+      position: absolute;
+      width: 1440px;
+      height: 120px;
+      left: 144px;
+      top: 571px;
+      font-weight: 400;
+      font-size: 120px;
+      line-height: 120px;
+      text-align: center;
+    }
+
+
+/* TYPOGRAPHY WORK */
+  #tipo > h2 {
+    position: absolute;
+    width: 1277px;
+    height: 64px;
+    left: 218px;
+    top: 1319px;
+    text-align: center;
+    color: #CE1C83;
+    }
+
+  /* Ñreticula 1 */
+  #tipo > .reticulas > .ñmayus {
+    position: absolute;
+    width: 262px;
+    height: 320px;
+    left: 260px;
+    top: 1712px;
+  }
+
+  /* ñminus 1 */
+  #tipo > .reticulas > .ñminus {
+    position: absolute;
+    width: 263px;
+    height: 321px;
+    left: 549px;
+    top: 1711px;
+  }
+
+  /* MAYUS 1 */
+  #tipo > .boxtipos > .mayus {
+    position: absolute;
+    width: 494px;
+    height: 145px;
+    left: 965px;
+    top: 1711px;
+  }
+
+  /* minus 1 */
+  #tipo > .boxtipos > .minus {
+    position: absolute;
+    width: 494px;
+    height: 145px;
+    left: 965px;
+    top: 1886px;
+  }
+
+/* PACKAGING */
+  #packaging > h2 {
+    position: absolute;
+    width: 914px;
+    height: 96px;
+    left: 414px;
+    top: 2434px;
+    font-weight: 400;
+    text-align: center;
+    color: #3A7EFE;
+  }
+  /* etiquetasanfrutoo 1 */
+    #packaging > .etiqueta > img {
+      position: absolute;
+      width: 478px;
+      height: 295px;
+      left: 310px;
+      top: 2749px;
+    }
+    
+  /* POSTER CERVEZA 2 */
+    #packaging > .poster > img {
+      position: absolute;
+      width: 386px;
+      height: 546px;
+      left: 1007px;
+      top: 2613px;
+    }
+
+/* OTROS TRABAJOS */
