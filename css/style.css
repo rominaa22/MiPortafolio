@@ -156,3 +156,17 @@ h2 {
     }
 
 /* OTROS TRABAJOS */
+#gallery {
+}
+
+
+/* versiona 1 */
+#gallery > ul > li > .versiona {
+  position: absolute;
+  width: 270px;
+  height: 191px;
+  left: 427px;
+  top: 301px;
+  background: url(versiona.png);
+}
+
