@@ -24,140 +24,256 @@ h2 {
     "wdth" 100;
 }
 
-/* HOME */
-  /* CHOOSE */
-  #home > h2 {
-    position: absolute;
-    width: 576px;
-    height: 96px;
-    left: 568px;
-    top: 220px;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 64px;
-    text-align: center;
+.wrapper > nav > .about > a {
+  position: absolute;
+  width: 91px;
+  height: 44px;
+  left: 53px;
+  top: 40px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
   }
 
-  /* MEEEEEE */
+.wrapper > nav > .gallery > a {
+  position: absolute;
+  width: 106px;
+  height: 44px;
+  left: 1568px;
+  top: 40px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+  }
+
+/* HOME */
+ /* MEEEEEE */
     /* me1 */
     #home > .me > .me1 {
+     /* WELCOMEEEEEE */
       position: absolute;
       width: 1440px;
       height: 120px;
       left: 144px;
       top: 385px;
+      font-family: 'Press Start 2P';
+      font-style: normal;
       font-weight: 400;
       font-size: 120px;
       line-height: 120px;
       text-align: center;
+      color: #000000;
     }
+
 
     /* me2 */
     #home > .me > .me2 {
+      /* WELCOMEEEEEE */
       position: absolute;
       width: 1440px;
       height: 120px;
       left: 144px;
       top: 478px;
+      font-family: 'Press Start 2P';
+      font-style: normal;
       font-weight: 400;
       font-size: 120px;
       line-height: 120px;
-      text-align: center
+      text-align: center;
+      color: #000000;
     }
 
     /* me3 */
     #home > .me > .me3 {
+      /* WELCOMEEEEEE */
       position: absolute;
       width: 1440px;
       height: 120px;
       left: 144px;
       top: 571px;
+      font-family: 'Press Start 2P';
+      font-style: normal;
       font-weight: 400;
       font-size: 120px;
       line-height: 120px;
       text-align: center;
+      color: #000000;
     }
 
 
-/* TYPOGRAPHY WORK */
+/* TRABAJO TIPOGRÁFICO */
   #tipo > h2 {
-    position: absolute;
-    width: 1277px;
-    height: 64px;
-    left: 218px;
-    top: 1319px;
-    text-align: center;
-    color: #CE1C83;
+      position: absolute;
+      width: 1277px;
+      height: 64px;
+      left: 218px;
+      top: 1196px;
+      font-family: 'Press Start 2P';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      text-align: center;
+      color: #CE1C83;
     }
-
+  #tipo > p {
+      position: absolute;
+      width: 520px;
+      height: 104px;
+      left: 596px;
+      top: 1372px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 33px;
+      text-align: center;
+      color: #000000;
+    }
+  
   /* Ñreticula 1 */
   #tipo > .reticulas > .ñmayus {
-    position: absolute;
-    width: 262px;
-    height: 320px;
-    left: 260px;
-    top: 1712px;
-  }
+      position: absolute;
+      width: 262px;
+      height: 320px;
+      left: 260px;
+      top: 1589px;
+    }
 
   /* ñminus 1 */
   #tipo > .reticulas > .ñminus {
-    position: absolute;
-    width: 263px;
-    height: 321px;
-    left: 549px;
-    top: 1711px;
-  }
+      position: absolute;
+      width: 263px;
+      height: 321px;
+      left: 549px;
+      top: 1588px;
+    }
 
   /* MAYUS 1 */
   #tipo > .boxtipos > .mayus {
-    position: absolute;
-    width: 494px;
-    height: 145px;
-    left: 965px;
-    top: 1711px;
-  }
+      position: absolute;
+      width: 494px;
+      height: 145px;
+      left: 965px;
+      top: 1588px;
+    }
 
   /* minus 1 */
   #tipo > .boxtipos > .minus {
-    position: absolute;
-    width: 494px;
-    height: 145px;
-    left: 965px;
-    top: 1886px;
-  }
+      position: absolute;
+      width: 494px;
+      height: 145px;
+      left: 965px;
+      top: 1763px;
+    }
 
 /* PACKAGING */
   #packaging > h2 {
+      position: absolute;
+      width: 914px;
+      height: 96px;
+      left: 418px;
+      top: 2163px;
+      font-family: 'Press Start 2P';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 64px;
+      text-align: center;
+      color: #3A7EFE;
+}
+
+  /* Propuesta de packaging...*/
+  #packaging > p {
     position: absolute;
-    width: 914px;
-    height: 96px;
-    left: 414px;
-    top: 2434px;
+    width: 520px;
+    height: 66px;
+    left: 302px;
+    top: 2353px;
     font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
     text-align: center;
-    color: #3A7EFE;
+    color: #000000;
   }
+
   /* etiquetasanfrutoo 1 */
     #packaging > .etiqueta > img {
-      position: absolute;
-      width: 478px;
-      height: 295px;
-      left: 310px;
-      top: 2749px;
+    position: absolute;
+    width: 478px;
+    height: 295px;
+    left: 314px;
+    top: 2478px;
     }
     
   /* POSTER CERVEZA 2 */
     #packaging > .poster > img {
-      position: absolute;
-      width: 386px;
-      height: 546px;
-      left: 1007px;
-      top: 2613px;
+    position: absolute;
+    width: 386px;
+    height: 546px;
+    left: 1014px;
+    top: 2353px;
     }
 
 /* OTROS TRABAJOS */
 #gallery {
 }
+
+
+  .parrafos-about > .titles{
+    position: absolute;
+    width: 314px;
+    height: 484px;
+    left: 226px;
+    top: 372px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #000000;
+    }
+
+  .parrafos-about > .textos {
+    position: absolute;
+    width: 411px;
+    height: 506px;
+    left: 659px;
+    top: 389px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .imgabout {
+    position: absolute;
+    width: 298px;
+    height: 359px;
+    left: 1188px;
+    top: 372px;
+    border-radius: 20px;
+    }
+
+  .imgabout > img {
+    position: absolute;
+    width: 239px;
+    height: 303px;
+    left: 1218px;
+    top: 400px;
+    background: url(260319_Lichtenstein00163_evoto_edited.jpg);
+    border-radius: 20px;
+    }
+
 
 
 /* versiona 1 */
