@@ -1,6 +1,6 @@
+/* TIPOGRAFÍAS */
 h1 {
   font-family: "Press Start 2P", system-ui;
-  font-weight: 0;
   font-style: normal;
   font-size: 120px;
   color: #000000;
@@ -8,219 +8,132 @@ h1 {
 
 h2 {
    font-family: "Press Start 2P", system-ui;
-   font-weight: 0;
    font-style: normal; 
    font-size: 64px;
-   color: #000000;
+    font-weight: 400;
+    line-height: 64px;
 }
 
+h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  color: #000000;
+}
+
+h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 32px;
+}
 
 *{
   font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
-.wrapper > nav > .about > a {
-  position: absolute;
-  width: 91px;
-  height: 44px;
-  left: 53px;
-  top: 40px;
-  font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 44px;
-  text-align: center;
-  color: #000000;
-  }
+.wrapper {
+  margin: 0 auto;
+  padding: 0 40px;
+}
 
-.wrapper > nav > .gallery > a {
-  position: absolute;
-  width: 106px;
-  height: 44px;
-  left: 1568px;
-  top: 40px;
-  font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: 400;
+nav > .aboutygall {
+  display: flex;
+  flex-direction: row;
   font-size: 24px;
-  line-height: 44px;
-  text-align: center;
   color: #000000;
+  justify-content: space-between;
+  /* margin-left: 200px;
+  margin-right: 200px; */
   }
 
 /* HOME */
- /* MEEEEEE */
-    /* me1 */
-    #home > .me > .me1 {
-     /* WELCOMEEEEEE */
-      position: absolute;
-      width: 1440px;
-      height: 120px;
-      left: 144px;
-      top: 385px;
-      font-family: 'Press Start 2P';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 120px;
-      line-height: 120px;
-      text-align: center;
-      color: #000000;
-    }
+  #home > .me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
 
-
-    /* me2 */
-    #home > .me > .me2 {
-      /* WELCOMEEEEEE */
-      position: absolute;
-      width: 1440px;
-      height: 120px;
-      left: 144px;
-      top: 478px;
-      font-family: 'Press Start 2P';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 120px;
-      line-height: 120px;
-      text-align: center;
-      color: #000000;
-    }
-
-    /* me3 */
-    #home > .me > .me3 {
-      /* WELCOMEEEEEE */
-      position: absolute;
-      width: 1440px;
-      height: 120px;
-      left: 144px;
-      top: 571px;
-      font-family: 'Press Start 2P';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 120px;
-      line-height: 120px;
-      text-align: center;
-      color: #000000;
-    }
-
+  #home > .me > span {
+    margin-bottom: 200px;
+  }
 
 /* TRABAJO TIPOGRÁFICO */
   #tipo > h2 {
-      position: absolute;
-      width: 1277px;
-      height: 64px;
-      left: 218px;
-      top: 1196px;
-      font-family: 'Press Start 2P';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 64px;
-      line-height: 64px;
-      text-align: center;
-      color: #CE1C83;
+    margin-bottom: 200px;
+    text-align: center;
+    color: #CE1C83; 
     }
-  #tipo > p {
-      position: absolute;
-      width: 520px;
-      height: 104px;
-      left: 596px;
-      top: 1372px;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 33px;
+
+    #tipo > p {
       text-align: center;
-      color: #000000;
+      font-size: 28px;
+      margin-bottom: 100px;
     }
   
-  /* Ñreticula 1 */
-  #tipo > .reticulas > .ñmayus {
-      position: absolute;
-      width: 262px;
-      height: 320px;
-      left: 260px;
-      top: 1589px;
+  /* Aguja */
+    #tipo > .aguja > .reticulas {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+      
+    #tipo > .aguja > .reticulas > img {
+      width: 300px;
     }
 
-  /* ñminus 1 */
-  #tipo > .reticulas > .ñminus {
-      position: absolute;
-      width: 263px;
-      height: 321px;
-      left: 549px;
-      top: 1588px;
+    #tipo > .aguja > .boxtipos {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
 
-  /* MAYUS 1 */
-  #tipo > .boxtipos > .mayus {
-      position: absolute;
-      width: 494px;
-      height: 145px;
-      left: 965px;
-      top: 1588px;
+    #tipo > .aguja > .boxtipos > img {
+      width: 600px;
     }
 
-  /* minus 1 */
-  #tipo > .boxtipos > .minus {
-      position: absolute;
-      width: 494px;
-      height: 145px;
-      left: 965px;
-      top: 1763px;
+    #tipo > .aguja {
+      display: flex;
+      flex-direction: row;
+      gap: 100px;
+      justify-content: center;
+      margin-bottom: 200px;
     }
 
 /* PACKAGING */
   #packaging > h2 {
-      position: absolute;
-      width: 914px;
-      height: 96px;
-      left: 418px;
-      top: 2163px;
-      font-family: 'Press Start 2P';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 64px;
-      line-height: 64px;
       text-align: center;
+      margin-bottom: 100px;
       color: #3A7EFE;
 }
 
-  /* Propuesta de packaging...*/
-  #packaging > p {
-    position: absolute;
-    width: 520px;
-    height: 66px;
-    left: 302px;
-    top: 2353px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    color: #000000;
-  }
+  /* Parrafo*/
+    #packaging > p {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 100px;
+    }
 
-  /* etiquetasanfrutoo 1 */
-    #packaging > .etiqueta > img {
-    position: absolute;
-    width: 478px;
-    height: 295px;
-    left: 314px;
-    top: 2478px;
+    #packaging > .imgpack {
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      align-items: end;
+      margin-bottom: 100px;
+      justify-content: center;
     }
-    
-  /* POSTER CERVEZA 2 */
-    #packaging > .poster > img {
-    position: absolute;
-    width: 386px;
-    height: 546px;
-    left: 1014px;
-    top: 2353px;
+
+    #packaging > .imgpack > :first-child {
+      width: 700px;
     }
+
+    #packaging > .imgpack > :last-child {
+      width: 500px;
+    }
+
 
 /* OTROS TRABAJOS */
 #gallery {
