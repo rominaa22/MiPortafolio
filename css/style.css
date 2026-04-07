@@ -261,6 +261,7 @@ h2 {
     height: 359px;
     left: 1188px;
     top: 372px;
+    background: #000000;
     border-radius: 20px;
     }
 
@@ -273,9 +274,7 @@ h2 {
     background: url(260319_Lichtenstein00163_evoto_edited.jpg);
     border-radius: 20px;
     }
-
-
-
+  
 /* versiona 1 */
 #gallery > ul > li > .versiona {
   position: absolute;
@@ -285,4 +284,3 @@ h2 {
   top: 301px;
   background: url(versiona.png);
 }
-
