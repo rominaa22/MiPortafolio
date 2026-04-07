@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 /* TIPOGRAFÍAS */
 h1 {
   font-family: "Press Start 2P", system-ui;
@@ -26,12 +42,6 @@ h4 {
   font-weight: 200;
   font-style: normal;
   font-size: 32px;
-}
-
-*{
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 200;
-  font-style: normal;
 }
 
 .wrapper {
@@ -74,7 +84,7 @@ nav > .aboutygall {
       margin-bottom: 100px;
     }
   
-  /* Aguja */
+    /* Aguja */
     #tipo > .aguja > .reticulas {
       display: flex;
       flex-direction: row;
@@ -108,9 +118,8 @@ nav > .aboutygall {
       text-align: center;
       margin-bottom: 100px;
       color: #3A7EFE;
-}
+    }
 
-  /* Parrafo*/
     #packaging > p {
       text-align: center;
       font-size: 28px;
@@ -134,66 +143,85 @@ nav > .aboutygall {
       width: 500px;
     }
 
-
-/* OTROS TRABAJOS */
-#gallery {
-}
-
-
-  .parrafos-about > .titles{
-    position: absolute;
-    width: 314px;
-    height: 484px;
-    left: 226px;
-    top: 372px;
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
+/* ABOUT-ME */
+  #sobremi > h2 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
     color: #000000;
     }
 
-  .parrafos-about > .textos {
-    position: absolute;
-    width: 411px;
-    height: 506px;
-    left: 659px;
-    top: 389px;
-    font-family: 'Noto Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    color: #000000;
+  #sobremi > .about {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
   }
 
-  .imgabout {
-    position: absolute;
-    width: 298px;
-    height: 359px;
-    left: 1188px;
-    top: 372px;
-    background: #000000;
-    border-radius: 20px;
-    }
+  #sobremi > .about > .titulos-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
 
-  .imgabout > img {
-    position: absolute;
-    width: 239px;
-    height: 303px;
-    left: 1218px;
-    top: 400px;
-    background: url(260319_Lichtenstein00163_evoto_edited.jpg);
-    border-radius: 20px;
-    }
-  
-/* versiona 1 */
-#gallery > ul > li > .versiona {
-  position: absolute;
-  width: 270px;
-  height: 191px;
-  left: 427px;
-  top: 301px;
-  background: url(versiona.png);
+  #sobremi > .about > .titulos-texto > .hola {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+  }
+
+  #sobremi > .about > .titulos-texto > .estudios {
+    display: flex;
+    flex-direction: row;
+    gap: 305px;
+    align-items: center;
+  }
+
+  #sobremi > .about > .titulos-texto > .idiomas {
+    display: flex;
+    flex-direction: row;
+    gap: 310px;
+    align-items: center;
+  }
+
+  #sobremi > .about > .img-icons > img {
+    width: 50px;
+  }
+
+
+
+/* OTROS TRABAJOS */
+/* GALLERY.HTML */
+/* #hGallery {
+    background-color: aqua;
+    height: 100vh;
+} */
+
+
+#gallery {
+    padding: 20px 0 80px 0;
+}
+
+#gallery > ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#gallery > ul > li {
+    height: 25vh;
+    flex-grow: 1;
+}
+
+#gallery > ul > li > img {
+  max-height: 100%;
+  min-width: 100;
+  object-fit: cover;
+}
+
+#gallery > h2 {
+ margin-top: 80px;
+ margin-bottom: 80px;
 }
